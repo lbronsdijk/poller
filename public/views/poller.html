@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<pre>{{logger}}</pre>
+<hr/>
+<p>Logged in: <strong>{{loggedIn}}</strong> | Status code: <strong>{{statusCode}}</strong> | Poller status: <strong>{{pollerStatus}}</strong> | Requests: <strong>{{requestCount}}</strong> | Response Time: <strong>{{responseTime}}</strong></p>
+<div>
+    <button ng-click="login()">Login</button>
+    <button ng-click="start()" ng-show="pollerStatus == 'Idle' || pollerStatus == 'Stopped'">Start</button>
+    <button ng-click="stop()" ng-show="pollerStatus == 'Started'">Stop</button>
+</div>
+<pre>{{data | json}}</pre>

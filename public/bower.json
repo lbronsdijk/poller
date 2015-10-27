@@ -1,0 +1,14 @@
+{
+    "name": "Poller",
+    "version": "0.0.1",
+    "authors": { 
+        "name": "Luc Bronsdijk", 
+        "email": "luc@exmachina.nl" 
+    },
+    "dependencies": {
+        "angular": "1.4.7",
+        "angular-route": "1.4.7",
+        "angularpoller": "0.3.3"
+    },
+    "private": true
+}
